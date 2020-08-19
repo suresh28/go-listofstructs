@@ -18,8 +18,10 @@ func main ()  {
 		devices[i].Configurations.Processor = "i7"		
 		}
 
-	for j := range devices {
-		fmt.Println (" Value of devices stored :: " , devices[j])
+	for j,v := range devices {
+		// fmt.Println (" Value of devices stored :: " , j , " value ::" , devices[j])
+
+		fmt.Println(" value of devices stored at :: ", j , " value :" , v  , "using devices[j] " , devices[j])
 	}
 
 

@@ -13,7 +13,7 @@ func main ()  {
 		devices[i].Model = "Mackbook Pro"
 		devices[i].Price = 2000 + 100 + i
 		devices[i].Year = 2020 - i
-		devices[i].Configurations.Hdd = "500GB" // uses sub structs
+		devices[i].Configurations.Hdd = "500GB" // uses sub structs promoted fields dont need pojo.pojo.field convention
 		devices[i].Configurations.Memory = "16GB"
 		devices[i].Configurations.Processor = "i7"		
 		}
